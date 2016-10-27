@@ -1,9 +1,9 @@
-# Outseeker Preliminary API documation
+# Outseeker Preliminary API documentation
 
 
 ## Sample call:
 
-### Perform a search for restuarants:
+### Perform a search for restaurants:
 ```sh
 https://api.outseeker.com/venues?multsearch=5.00&multallsearch=2.00&online_reservations_only=false&moodText=coffee&multmoodsearch=2&cost_min=0&cost_max=20&fast_food_ok=true&restaurants_ok=false&multloc=2.25&multact=1&overall=1&food=1&atmosphere=1&service=1&multrel=0.8&critic=1&verified=1&public=1&latitude=40.7502109&longitude=-74.0035789&open_day=MON&text=trendy&api_key=XXXXXXXX
 ```
@@ -22,7 +22,7 @@ Calls without a valid key will return this output:
 
 ## Input
 
-The API accepts the following input parameters (shown with exapmple values from above call)
+The API accepts the following input parameters (shown with example values from above call)
 
 Required parameters:
 
@@ -30,8 +30,8 @@ Required parameters:
 
 |  **Required parameters:** |                                                                 |
 |:-----------------------|-----------------------------------------------------------------|
-| cost_min=0            | minimum cost of restuarants (acts as filter)                    |
-| cost_max=20           | maximum cost of restuarants (acts as filter)                    |
+| cost_min=0            | minimum cost of restaurants (acts as filter)                    |
+| cost_max=20           | maximum cost of restaurants (acts as filter)                    |
 | fast\_food\_ok=true     | if true, only return restaurants that have fast_food=T (filter) |
 | restaurants_ok=false  | if true, only return restaurants that have fast_food=F (filter) |
 | latitude=40.7502109   | geolocation                                                     |
